@@ -1,0 +1,2 @@
+export const workCategories=[{id:'web',label:'Web experiences'},{id:'automation',label:'Systems & data'},{id:'repos',label:'Experiments'}];
+export function filterProjects<T extends {category:string;title:string;role:string;tags:string[];summary:string;sortRank:number;featured:boolean}>(items:T[],category:string,query:string):T[]{const term=query.trim().toLowerCase();return items.filter(p=>p.category===category&&[p.title,p.role,p.summary,...p.tags].join(' ').toLowerCase().includes(term)).sort((a,b)=>Number(b.featured)-Number(a.featured)||b.sortRank-a.sortRank)}

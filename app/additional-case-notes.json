@@ -1,0 +1,241 @@
+{
+  "stock": {
+    "question": "Record stock movements across locations without losing the operational context.",
+    "constraint": "Inventory, movements, low-stock alerts, and approvals across locations.",
+    "contribution": "Built an inventory ledger, movement entry, approval queue, product assignments, audit history, user management, and CSV exports. The frontend connects to an Apps Script service.",
+    "decision": "Built an inventory ledger, movement entry, approval queue, product assignments, audit history, user management, and CSV exports. The frontend connects to an Apps Script service.",
+    "tradeoff": "Browser source inspected; remote endpoints and authentication were not exercised. Some writes use no-cors, so a completed request does not itself prove server acceptance.",
+    "takeaway": "Keep the workflow understandable, and make the limits of the implementation explicit.",
+    "flow": [
+      "Choose location",
+      "Record movement",
+      "Review approval",
+      "Inspect balances"
+    ],
+    "evidence": "Source: Stock-management.html. Browser source inspected; remote endpoints and authentication were not exercised. Some writes use no-cors, so a completed request does not itself prove server acceptance.",
+    "status": "Backend-dependent implementation",
+    "date": "10 October 2026"
+  },
+  "contentos": {
+    "question": "Keep content tasks, completion proof, and brand context together.",
+    "constraint": "A workspace for coordinating content across brands, products, and people.",
+    "contribution": "Built task management, completion logs, calendar, products, brands, analytics, audit history, user roles, and configurable settings with local browser persistence.",
+    "decision": "Built task management, completion logs, calendar, products, brands, analytics, audit history, user roles, and configurable settings with local browser persistence.",
+    "tradeoff": "Source has localStorage persistence and client-side role selection; no network-backed multi-user authentication or shared database is established.",
+    "takeaway": "A clear workflow needs an equally clear boundary around persistence and access.",
+    "flow": [
+      "Create task",
+      "Assign context",
+      "Record completion",
+      "Review activity"
+    ],
+    "evidence": "Source: ContentOs.html. Source has localStorage persistence and client-side role selection; no network-backed multi-user authentication or shared database is established.",
+    "status": "Browser-local implementation",
+    "date": "10 October 2026"
+  },
+  "fitness": {
+    "question": "Bring training plans and everyday tracking into a single interface.",
+    "constraint": "A personal workspace connecting schedules, sessions, nutrition, and recovery.",
+    "contribution": "Built workout schedule management, calendar, session entry, personal records, recovery logging, nutrition logs, profile calculations, and an exercise/recipe library. Backend adapters connect external services through Apps Script.",
+    "decision": "Built workout schedule management, calendar, session entry, personal records, recovery logging, nutrition logs, profile calculations, and an exercise/recipe library. Backend adapters connect external services through Apps Script.",
+    "tradeoff": "Frontend code inspected. Backend auth, synchronization, external API access, and calculation accuracy have not been validated; this is a tracking application, not clinical guidance.",
+    "takeaway": "Keep the workflow understandable, and make the limits of the implementation explicit.",
+    "flow": [
+      "Plan sessions",
+      "Log training",
+      "Track recovery",
+      "Review progress"
+    ],
+    "evidence": "Source: Fitness.html. Frontend code inspected. Backend auth, synchronization, external API access, and calculation accuracy have not been validated; this is a tracking application, not clinical guidance.",
+    "status": "Backend-dependent implementation",
+    "date": "10 October 2026"
+  },
+  "materials": {
+    "question": "Estimate which production materials need attention over a selected horizon.",
+    "constraint": "Translate product demand into material requirements and shortage signals.",
+    "contribution": "Built workbook parsing, product-to-recipe matching with manual corrections, production demand calculations, material consumption, coverage estimates, and shortage breakdowns.",
+    "decision": "Built workbook parsing, product-to-recipe matching with manual corrections, production demand calculations, material consumption, coverage estimates, and shortage breakdowns.",
+    "tradeoff": "The supplied code starts without embedded data. Estimates depend on workbook inputs, recipe mappings, historical averages, and the selected horizon; they are not guaranteed forecasts.",
+    "takeaway": "Make assumptions and missing mappings visible before presenting a number.",
+    "flow": [
+      "Import workbook",
+      "Match recipes",
+      "Set horizon",
+      "Inspect shortages"
+    ],
+    "evidence": "Source: Materialstock.html. The supplied code starts without embedded data. Estimates depend on workbook inputs, recipe mappings, historical averages, and the selected horizon; they are not guaranteed forecasts.",
+    "status": "Source-reviewed planning tool",
+    "date": "10 October 2026"
+  },
+  "sales": {
+    "question": "Make large sales workbooks easier to investigate without rebuilding reports manually.",
+    "constraint": "Explore monthly sales through products, outlets, channels, and delivery geography.",
+    "contribution": "Built Excel ingestion and interactive analyses covering product sales by month, shop totals, channel attribution, and delivery company/city/district breakdowns, with report export code.",
+    "decision": "Built Excel ingestion and interactive analyses covering product sales by month, shop totals, channel attribution, and delivery company/city/district breakdowns, with report export code.",
+    "tradeoff": "Workbook parsing and reporting code inspected. No real customer workbook was loaded or published, and business totals were not independently reconciled.",
+    "takeaway": "Keep the workflow understandable, and make the limits of the implementation explicit.",
+    "flow": [
+      "Load workbook",
+      "Choose dimensions",
+      "Compare trends",
+      "Export findings"
+    ],
+    "evidence": "Source: MonthlySales.html. Workbook parsing and reporting code inspected. No real customer workbook was loaded or published, and business totals were not independently reconciled.",
+    "status": "Source-reviewed analytics tool",
+    "date": "10 October 2026"
+  },
+  "assets": {
+    "question": "Capture an outlet inventory in a consistent, exportable format.",
+    "constraint": "A focused entry form for assembling an outlet’s asset register.",
+    "contribution": "Built an asset-entry form, in-session list, row deletion, and CSV export with outlet/date filenames.",
+    "decision": "Built an asset-entry form, in-session list, row deletion, and CSV export with outlet/date filenames.",
+    "tradeoff": "The code stores entries in memory; refreshing loses unsaved entries. CSV escaping and spreadsheet formula handling would need validation before broad production use.",
+    "takeaway": "Keep the workflow understandable, and make the limits of the implementation explicit.",
+    "flow": [
+      "Identify outlet",
+      "Add assets",
+      "Review list",
+      "Export CSV"
+    ],
+    "evidence": "Source: Outlet Assets form.html. The code stores entries in memory; refreshing loses unsaved entries. CSV escaping and spreadsheet formula handling would need validation before broad production use.",
+    "status": "Browser-local form",
+    "date": "10 October 2026"
+  },
+  "travel": {
+    "question": "Organize a travel landing page around inspiration and destination browsing.",
+    "constraint": "A visual travel concept built around destinations, stays, and editorial discovery.",
+    "contribution": "Built an image-led destination grid, featured stays, testimonials, travel articles, responsive navigation, and GSAP scroll sequences.",
+    "decision": "Built an image-led destination grid, featured stays, testimonials, travel articles, responsive navigation, and GSAP scroll sequences.",
+    "tradeoff": "Uploaded HTML, CSS, and JavaScript inspected. Search and travel listings are presentation content; no booking or live inventory backend was established.",
+    "takeaway": "Visual discovery and practical navigation should reinforce each other.",
+    "flow": [
+      "Explore destinations",
+      "Browse stays",
+      "Read stories",
+      "Navigate sections"
+    ],
+    "evidence": "Source: Travel-site-main.zip. Uploaded HTML, CSS, and JavaScript inspected. Search and travel listings are presentation content; no booking or live inventory backend was established.",
+    "status": "Frontend concept",
+    "date": "10 October 2026"
+  },
+  "alpha": {
+    "question": "Explain a broad service offering without losing the path to an inquiry.",
+    "constraint": "A service-led agency presence connecting engineering and creative production.",
+    "contribution": "Built a structured agency site covering web development, automation, reporting, creative services, process, team, project details, FAQs, and an inquiry form. The uploaded site and connected GitHub source are treated as versions of one project.",
+    "decision": "Built a structured agency site covering web development, automation, reporting, creative services, process, team, project details, FAQs, and an inquiry form. The uploaded site and connected GitHub source are treated as versions of one project.",
+    "tradeoff": "Reviewed the supplied archive and main/index.html in the connected repository on 10 October 2026. Form delivery, commercial claims, and production metrics were not tested.",
+    "takeaway": "Keep the workflow understandable, and make the limits of the implementation explicit.",
+    "flow": [
+      "Explore services",
+      "Understand process",
+      "Meet the team",
+      "Send inquiry"
+    ],
+    "evidence": "Source: Alpha-Digital-Solutions--main.zip + nikithaKesh/Alpha-Solutions. Reviewed the supplied archive and main/index.html in the connected repository on 10 October 2026. Form delivery, commercial claims, and production metrics were not tested.",
+    "status": "Uploaded & repository source reviewed",
+    "date": "10 October 2026",
+    "evidenceUrl": "https://github.com/nikithaKesh/Alpha-Solutions"
+  },
+  "skinscope": {
+    "question": "Connect image input to a readable, downloadable report.",
+    "constraint": "An exploration of image uploads, report generation, and an analysis interface.",
+    "contribution": "Developed Flask upload/report routes, OpenCV image processing, charts, and PDF generation in successive prototypes.",
+    "decision": "Developed Flask upload/report routes, OpenCV image processing, charts, and PDF generation in successive prototypes.",
+    "tradeoff": "Prior shared code used grayscale brightness and randomized placeholder indicators. It is not a validated skin assessment or diagnostic system. Current source was not supplied for this review.",
+    "takeaway": "Keep the workflow understandable, and make the limits of the implementation explicit.",
+    "flow": [
+      "Upload image",
+      "Process prototype data",
+      "Display charts",
+      "Generate report"
+    ],
+    "evidence": "Source: Prior development conversations. Prior shared code used grayscale brightness and randomized placeholder indicators. It is not a validated skin assessment or diagnostic system. Current source was not supplied for this review.",
+    "status": "Historical prototype",
+    "date": "10 October 2026"
+  },
+  "retail-etl": {
+    "question": "Turn inconsistent shop spreadsheets into structured order and product records.",
+    "constraint": "A validation and transformation pipeline for retail order spreadsheets.",
+    "contribution": "Implemented required-column checks, contact/date normalization, quantity expansion, and parameterized SQL Server inserts. A Flask interface was discussed separately as an extension.",
+    "decision": "Implemented required-column checks, contact/date normalization, quantity expansion, and parameterized SQL Server inserts. A Flask interface was discussed separately as an extension.",
+    "tradeoff": "Retrieved conversations contain importer code. A completed Flask deployment and upload-history interface were not established; the database pipeline has not been rerun here.",
+    "takeaway": "Keep the workflow understandable, and make the limits of the implementation explicit.",
+    "flow": [
+      "Read sheets",
+      "Validate records",
+      "Expand quantities",
+      "Insert rows"
+    ],
+    "evidence": "Source: Prior development conversations. Retrieved conversations contain importer code. A completed Flask deployment and upload-history interface were not established; the database pipeline has not been rerun here.",
+    "status": "Historical code evidence",
+    "date": "10 October 2026"
+  },
+  "bank-tracker": {
+    "question": "Organize bank transaction imports by bank and outlet.",
+    "constraint": "Development work on bank-specific transaction ingestion and outlet storage.",
+    "contribution": "Worked on a modular bank tracker, outlet-specific transaction tables, and a migration path from SQLite to SQL Server.",
+    "decision": "Worked on a modular bank tracker, outlet-specific transaction tables, and a migration path from SQLite to SQL Server.",
+    "tradeoff": "Project details are retained from the supplied conversation history. Current source and banking integrations were not reviewed or executed; no live connectivity or security claim is made.",
+    "takeaway": "Keep the workflow understandable, and make the limits of the implementation explicit.",
+    "flow": [
+      "Select outlet",
+      "Collect transactions",
+      "Normalize fields",
+      "Store records"
+    ],
+    "evidence": "Source: Prior project record. Project details are retained from the supplied conversation history. Current source and banking integrations were not reviewed or executed; no live connectivity or security claim is made.",
+    "status": "Development record",
+    "date": "10 October 2026"
+  },
+  "store-map": {
+    "question": "Help visitors discover six outlets and reach the right practical information.",
+    "constraint": "A geographic interface for finding outlets and planning a visit.",
+    "contribution": "Developed map views with search, filters, nearest-location discovery, outlet details, directions, and a 2D fallback.",
+    "decision": "Developed map views with search, filters, nearest-location discovery, outlet details, directions, and a 2D fallback.",
+    "tradeoff": "A prior conversation records delivery and a source ZIP. The current artifact was not re-opened in this update, so live integrations and opening hours are not newly verified.",
+    "takeaway": "Keep the workflow understandable, and make the limits of the implementation explicit.",
+    "flow": [
+      "Explore map",
+      "Filter locations",
+      "Inspect outlet",
+      "Get directions"
+    ],
+    "evidence": "Source: Prior delivered-site conversation. A prior conversation records delivery and a source ZIP. The current artifact was not re-opened in this update, so live integrations and opening hours are not newly verified.",
+    "status": "Previously delivered build",
+    "date": "10 October 2026"
+  },
+  "chess": {
+    "question": "Combine playable chess with expressive environments and continuity between sessions.",
+    "constraint": "An atmospheric chess experience with computer play and online friend rooms.",
+    "contribution": "Developed legal-move handling, clocks, computer play, review, FEN/PGN, saved games, and synchronized friend-room flows across iterative builds.",
+    "decision": "Developed legal-move handling, clocks, computer play, review, FEN/PGN, saved games, and synchronized friend-room flows across iterative builds.",
+    "tradeoff": "Prior delivery messages document these features. Current game behavior, engine strength, and multiplayer reliability were not retested during this portfolio update.",
+    "takeaway": "Keep the workflow understandable, and make the limits of the implementation explicit.",
+    "flow": [
+      "Choose a mode",
+      "Play a game",
+      "Review moves",
+      "Save or rematch"
+    ],
+    "evidence": "Source: Prior delivered-site conversation. Prior delivery messages document these features. Current game behavior, engine strength, and multiplayer reliability were not retested during this portfolio update.",
+    "status": "Previously delivered build",
+    "date": "10 October 2026"
+  },
+  "social-hub": {
+    "question": "Keep a dispersed professional presence organized without inventing unavailable statistics.",
+    "constraint": "A searchable home for professional profiles and their available public information.",
+    "contribution": "Developed categorized profile cards, search, pinning, add/edit persistence, links, and explicit handling for private or unavailable metrics.",
+    "decision": "Developed categorized profile cards, search, pinning, add/edit persistence, links, and explicit handling for private or unavailable metrics.",
+    "tradeoff": "Prior chats record private delivery and source packages. No claim is made that every platform supports live statistics. This is a project case study, not a restored social-account storage section.",
+    "takeaway": "Keep the workflow understandable, and make the limits of the implementation explicit.",
+    "flow": [
+      "Browse profiles",
+      "Filter interests",
+      "Manage links",
+      "Inspect availability"
+    ],
+    "evidence": "Source: Prior delivered-site conversation. Prior chats record private delivery and source packages. No claim is made that every platform supports live statistics. This is a project case study, not a restored social-account storage section.",
+    "status": "Previously delivered build",
+    "date": "10 October 2026"
+  }
+}

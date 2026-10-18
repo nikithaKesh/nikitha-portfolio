@@ -1,0 +1,4 @@
+import {Search,Route,PenTool,Code2,Check,Rocket,ArrowRight} from "lucide-react";
+import content from "./content.json";
+const icons=[Search,Route,PenTool,Code2,Check,Rocket];
+export function ProcessCards(){return <section className="process-section section-pad" id="process"><div className="process-heading"><div><div className="eyebrow"><span className="chapter">05</span>Process</div><h2>How I <em>work.</em></h2></div><span className="process-direction" aria-hidden="true">From the first question to the next iteration <ArrowRight size={18}/></span></div><ol className="process-cards">{content.process.map((step,i)=>{const Icon=icons[i];return <li key={step.title} className="process-card"><div className="process-card-top"><Icon size={21} strokeWidth={1.6}/><span>0{i+1}</span></div><h3>{step.title}</h3><p>{step.description}</p><span className="process-card-track" aria-hidden="true"><i/></span></li>})}</ol></section>}

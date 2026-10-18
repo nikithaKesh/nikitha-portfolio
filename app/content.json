@@ -1,0 +1,219 @@
+{
+  "about": [
+    "Based in Colombo, Sri Lanka, my focus is strictly on building software that serves a distinct purpose. Whether it's designing a high-conversion e-commerce frontend or writing Python scripts to automate complex payroll calculations, I aim for high utility and low friction.",
+    "Currently serving as the Assistant IT Administrator for the CER Group and Technical Lead at Alpha Solutions, I have a proven track record of architecting digital identities, managing databases, and deploying internal tools that drastically cut down manual administrative hours.",
+    "I build websites, internal tools, and business systems with a strong emphasis on usability, performance, and reliability.",
+    "Web application architecture, business process automation, and UI/UX systems that support real operations.",
+    "E-commerce experiences, reporting systems, workflow automation, and tools that reduce repetitive work.",
+    "Code maintainability over shortcuts. Automate mundane tasks. Design for the end-user.",
+    "Outside engineering, I research and write, photograph and edit images, and explore visual storytelling. I am based in Kalutara and work and study in Colombo. My long-term direction is full-stack software engineering consulting."
+  ],
+  "services": [
+    {
+      "title": "Web Development",
+      "description": "Clean, responsive websites and product pages designed to communicate clearly, convert better, and stay maintainable."
+    },
+    {
+      "title": "System Automation",
+      "description": "Workflow automation for repetitive tasks such as invoices, reporting, payroll logic, and operational handoffs."
+    },
+    {
+      "title": "Internal Business Tools",
+      "description": "Practical admin interfaces and business utilities that help teams reduce friction and work faster with fewer errors."
+    },
+    {
+      "title": "Dashboards & Reporting",
+      "description": "Operational dashboards and reporting flows that make business data more useful, visible, and actionable."
+    },
+    {
+      "title": "Website Maintenance / Optimization",
+      "description": "Ongoing technical support, cleanup, UX refinement, and performance-focused improvements for active websites."
+    },
+    {
+      "title": "OTA Setup & Management",
+      "description": "Extranet profile creation, synchronization, and hosting management across all major travel platforms."
+    },
+    {
+      "title": "Web Applications",
+      "description": "Interactive platforms tailored to specific operational logic, user portals, and complex workflows."
+    }
+  ],
+  "process": [
+    {
+      "title": "Discover",
+      "description": "Understand the current workflow, friction points, and the real outcome the business needs."
+    },
+    {
+      "title": "Plan",
+      "description": "Map the solution structure, break down scope, and identify the best stack or workflow path."
+    },
+    {
+      "title": "Design",
+      "description": "Shape the interface and user flow so the end result stays clear, efficient, and aligned with the brand."
+    },
+    {
+      "title": "Build",
+      "description": "Develop the system with clean structure, scalable code, and reliable functionality across devices."
+    },
+    {
+      "title": "Test",
+      "description": "Check edge cases, flow consistency, accessibility, and performance before release."
+    },
+    {
+      "title": "Launch / Support",
+      "description": "Deploy cleanly, document handoff points, and keep refining where business needs evolve."
+    }
+  ],
+  "skills": [
+    {
+      "title": "Languages & Core",
+      "items": [
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "Python",
+        "Java",
+        "C#",
+        "C++",
+        "Kotlin",
+        "PHP"
+      ]
+    },
+    {
+      "title": "Frontend & Mobile",
+      "items": [
+        "React.js",
+        "Next.js",
+        "Vue.js",
+        "React Native",
+        "Flutter",
+        "HTML5 / CSS3",
+        "Tailwind CSS",
+        "Bootstrap",
+        "SASS"
+      ]
+    },
+    {
+      "title": "Backend & Infrastructure",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "Spring Boot",
+        "C# / .NET Core",
+        "Django",
+        "REST / GraphQL APIs",
+        "Nginx"
+      ]
+    },
+    {
+      "title": "Data Fortresses",
+      "items": [
+        "MySQL",
+        "PostgreSQL",
+        "SQL Server",
+        "MongoDB",
+        "SQLite",
+        "Redis",
+        "Firebase",
+        "Prisma"
+      ]
+    },
+    {
+      "title": "Cloud & DevOps",
+      "items": [
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "Docker",
+        "Git / GitHub Actions",
+        "Linux",
+        "Vercel",
+        "Netlify"
+      ]
+    },
+    {
+      "title": "Intelligence & Tools",
+      "items": [
+        "TensorFlow",
+        "PyTorch",
+        "OpenCV",
+        "scikit-learn",
+        "Postman",
+        "Figma",
+        "Photoshop",
+        "WordPress"
+      ]
+    }
+  ],
+  "now": [
+    {
+      "title": "Working on",
+      "description": "Business websites, internal tooling, and operational automations that support everyday admin, commerce, and reporting."
+    },
+    {
+      "title": "Learning",
+      "description": "Deeper software engineering patterns, cleaner architecture decisions, and stronger full-stack execution across production systems."
+    },
+    {
+      "title": "Open to",
+      "description": "Software development work, system automation projects, web builds, maintenance support, and practical business tools."
+    },
+    {
+      "title": "Direction",
+      "description": "Moving toward stronger systems thinking, more polished product execution, and a portfolio that feels business-ready."
+    },
+    {
+      "title": "Building with others",
+      "description": "Alongside my work at CER Industries, I am a Co-Founder & Tech Lead at Alpha Technologies and CodeNest, working across websites, automation, QA, and data analysis."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "July 2024 — Present",
+      "title": "Assistant IT Administrator",
+      "organization": "CER Group of Companies",
+      "description": "Managing IT systems, databases, and writing Google Apps Scripts to automate invoicing and payroll across 6 distinct brands. Responsible for WooCommerce logic, analytics dashboards via Looker Studio, and API integrations."
+    },
+    {
+      "date": "2025 — Present",
+      "title": "Technical Lead & Developer",
+      "organization": "Alpha Solutions",
+      "description": "Leading web development, system automation, and QA. Architecting brand sites and internal tools to scale client operations efficiently."
+    },
+    {
+      "date": "2024 — 2028 (Ongoing)",
+      "title": "BIT — Bachelor of Information Technology",
+      "organization": "University of Colombo",
+      "description": "Rigorous study focusing on software engineering principles, database architecture, and algorithms."
+    },
+    {
+      "date": "2025 — 2027 (Ongoing)",
+      "title": "HND in Computer Science",
+      "organization": "Londontech City Campus",
+      "description": "Practical higher national diploma reinforcing hands-on coding paradigms, logic application, and full-stack environments."
+    }
+  ],
+  "education": [
+    {
+      "title": "Programming in Python & Web Development",
+      "organization": "University of Moratuwa",
+      "description": "(DP Education)"
+    },
+    {
+      "title": "Foundation Program",
+      "organization": "JAVA Institute",
+      "description": "Neuroscience, Programming, Robotic Science"
+    },
+    {
+      "title": "G.C.E. Advanced Level (2023)",
+      "organization": "D. S. Senanayake College - Beruwela",
+      "description": "Engineering Technology Stream — 2S, 1C"
+    },
+    {
+      "title": "G.C.E. Ordinary Level 2019",
+      "organization": "Tissa Central College, Beruwela",
+      "description": "4C, 4A & 1B"
+    }
+  ],
+  "resumeHTML": "<div class=\"cv-paper\">\n        \n        <aside class=\"cv-sidebar\">\n          \n          <div>\n            \n            <div class=\"cv-header cv-header-mobile\">\n              <h2>P.N.C.K.<br></br>GOMES</h2>\n            </div>\n          </div>\n\n          <div class=\"cv-section\">\n            <div class=\"cv-section-title\">Contact</div>\n            <div class=\"cv-contact-list\">\n              <div class=\"cv-contact-item\">\n                 \n                <span>+94 76 484 9127</span>\n              </div>\n              <div class=\"cv-contact-item\">\n                 \n                <span>No 215/B, Kandapanasala road, Maha Waskaduwa, Waskaduwa, Kalutara</span>\n              </div>\n              <div class=\"cv-contact-item\">\n                 \n                <a href=\"mailto:nikithakeshan@gmail.com\">nikithakeshan@gmail.com</a>\n              </div>\n              <div class=\"cv-contact-item\">\n                 \n                <span>27th October 2002</span>\n              </div>\n              <div class=\"cv-contact-item\">\n                 \n                <a href=\"https://www.linkedin.com/in/nikitha-keshan-640927325/\" target=\"_blank\" rel=\"noreferrer\">Nikitha Keshan</a>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"cv-section\">\n            <div class=\"cv-section-title\">Education</div>\n\n            <div class=\"cv-item\">\n              <div class=\"cv-item-title\">BIT (Bachelor of Information Technology) - Ongoing</div>\n              <div class=\"cv-item-subtitle\">University of Colombo</div>\n            </div>\n\n            <div class=\"cv-item\">\n              <div class=\"cv-item-title\">HND in Computer Science - Ongoing</div>\n              <div class=\"cv-item-subtitle\">Londontech City Campus</div>\n            </div>\n\n            <div class=\"cv-item\">\n              <div class=\"cv-item-title\">Programming in Python &amp; Web Development</div>\n              <div class=\"cv-item-subtitle\">University of Moratuwa (DP education)</div>\n            </div>\n\n            <div class=\"cv-item\">\n              <div class=\"cv-item-title\">Foundation Programme</div>\n              <div class=\"cv-item-subtitle\">JAVA Institute</div>\n              <ul class=\"cv-item-desc\">\n                <li>Neuroscience</li>\n                <li>Programming</li>\n                <li>Robotic Science</li>\n              </ul>\n            </div>\n\n            <div class=\"cv-item\">\n              <div class=\"cv-item-title\">G.C.E. Ordinary Level Examination 2019</div>\n              <div class=\"cv-item-subtitle\">Tissa Central College – Beruwela</div>\n              <p class=\"cv-item-desc\">Results - 4As, 1Bs &amp; 4Cs</p>\n            </div>\n\n            <div class=\"cv-item\">\n              <div class=\"cv-item-title\">G.C.E. Advanced Level Examination (2023)</div>\n              <div class=\"cv-item-subtitle\">D. S. Senanayake College – Beruwela</div>\n              <p class=\"cv-item-desc\">Stream - Engineering Technology Stream<br></br>Results - 2S, 1C</p>\n            </div>\n          </div>\n        </aside>\n\n        <div class=\"cv-main-content\">\n          \n          <div class=\"cv-header cv-header-desktop\">\n            <h2>P.N.C.K. GOMES</h2>\n          </div>\n\n          <div class=\"cv-section\">\n            <div class=\"cv-section-title\">Summary</div>\n            <div class=\"cv-item\">\n              <p class=\"cv-item-desc\">As an enthusiastic and adaptable young professional, I aspire to advance my career in the IT industry as a skilled, dependable expert. I aim to contribute my technical knowledge, problem-solving abilities, and strong interpersonal skills to a well-respected organization.</p>\n            </div>\n          </div>\n\n          <div class=\"cv-section\">\n            <div class=\"cv-section-title\">Employment History</div>\n            \n            <div class=\"cv-item\">\n              <div class=\"cv-item-header\">\n                <span class=\"cv-item-title\">Assistant IT Administrator</span>\n                <span class=\"cv-item-meta\">2024 July – Present</span>\n              </div>\n              <div class=\"cv-item-subtitle\">CER Group of Companies (Biseka, Love&amp;Lab, Scrub&amp;Butter, ExtractExact, OLA Tangalle, Mob Surfskate)</div>\n              <ul class=\"cv-item-desc\">\n                <li>Manage and maintain IT systems, dashboards, and automation tools across all brands.</li>\n                <li>Update Google Sheets, databases, and dashboards for accurate reporting.</li>\n                <li>Develop and improve automation scripts using Google Apps Script.</li>\n                <li>Handle website updates, products, pricing, and promotions.</li>\n                <li>Manage Google Ads, Merchant Center, and Meta Business Suite integrations.</li>\n                <li>Provide IT support for devices, software, operations and troubleshooting.</li>\n                <li>Oversee backups, access control, and version management.</li>\n                <li>Create and maintain IT and automation process documentation.</li>\n                <li>Build dashboards in Looker Studio for KPI tracking.</li>\n              </ul>\n            </div>\n          </div>\n\n          <div class=\"cv-section\">\n            <div class=\"cv-item\"><div class=\"cv-item-header\"><span class=\"cv-item-title\">Technical Lead &amp; Developer — Alpha Solutions</span><span class=\"cv-item-meta\">2025 — Present</span></div><ul class=\"cv-item-desc\"><li>Build and maintain business websites, including Alpha Solutions’ own site.</li><li>Develop automation using Apps Script, Python, and Google Sheets.</li><li>Handle ongoing maintenance and error resolution for clients.</li></ul></div><div class=\"cv-section-title\">Achievements and Projects</div>\n            <div class=\"cv-item\">\n              <ul class=\"cv-item-desc\">\n                <li>Automated using spreadsheet AppScript &amp; Excel VBA to make process easier</li>\n                <li>Skin analyzer using React, Python</li>\n                <li>Invoice generator, SMS campaign analyzers for my own work</li>\n                <li>Social media analyzer and account manager for manage my work</li>\n                <li>Web projects by myself using React, HTML, CSS and JavaScript</li>\n              </ul>\n            </div>\n          </div>\n\n          <div class=\"cv-section\">\n            <div class=\"cv-section-title\">References</div>\n            <div class=\"cv-references-grid\">\n              <div class=\"cv-item\">\n                <div class=\"cv-item-title\">Thilina Hansamala</div>\n                <div class=\"cv-item-subtitle\">Head IT Administrator At CER Industries</div>\n                <div class=\"cv-contact-list\">\n                  <div class=\"cv-contact-item\">\n                     \n                    <a href=\"mailto:yours.automation@gmail.com\">yours.automation@gmail.com</a>\n                  </div>\n                  <div class=\"cv-contact-item\">\n                     \n                    <span>075 654 7410</span>\n                  </div>\n                </div>\n              </div>\n\n              <div class=\"cv-item\">\n                <div class=\"cv-item-title\">Dasun Abeysooriya</div>\n                <div class=\"cv-item-subtitle\">General Manager At CER Industries</div>\n                <div class=\"cv-contact-list\">\n                  <div class=\"cv-contact-item\">\n                     \n                    <a href=\"mailto:dasun.biseka@gmail.com\">dasun.biseka@gmail.com</a>\n                  </div>\n                  <div class=\"cv-contact-item\">\n                     \n                    <span>071 740 7494</span>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"cv-section\">\n            <div class=\"cv-section-title\">Declaration</div>\n            <div class=\"cv-item\">\n              <p class=\"cv-item-desc\">I do hereby declare that all statement made in this application are true and correct to the best of my knowledge.</p>\n              \n              <div class=\"cv-declaration-footer\">\n                <div class=\"cv-declaration-box\">\n                  <p>___________________</p>\n                  <p>Signature</p>\n                </div>\n                <div class=\"cv-declaration-box\">\n                  <p>___________________</p>\n                  <p>Date: ___________________</p>\n                </div>\n              </div>\n\n            </div>\n          </div>\n\n        </div>\n      </div>",
+  "contactIntro": "Whether you need a custom business automation system, a robust web platform, or are looking for a dedicated developer to join your team, my inbox is open."
+}

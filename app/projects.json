@@ -1,0 +1,645 @@
+[
+  {
+    "id": "biseka",
+    "category": "web",
+    "featured": true,
+    "sortRank": 9,
+    "title": "Biseka Cosmetics Web Platform",
+    "summary": "Engineered digital storefront focusing on high-performance and a premium user journey.",
+    "role": "Frontend Developer",
+    "tags": [
+      "E-Commerce",
+      "UI/UX",
+      "Performance"
+    ],
+    "problem": "The brand needed a digital storefront that reflected its premium aesthetic, but large product images caused severe load delays, impacting conversion rates.",
+    "solution": "Engineered a highly optimized, component-driven UI. Implemented lazy loading for media, streamlined WooCommerce logic, and designed a frictionless checkout flow.",
+    "impact": "Achieved significantly faster page load times, elevating the brand's credibility and directly increasing online sales conversions.",
+    "links": [
+      {
+        "label": "Live Demo",
+        "url": "https://biseka.co/",
+        "icon": "ph-arrow-up-right",
+        "type": "demo"
+      }
+    ],
+    "logo": "https://biseka.co",
+    "logoAlt": "Biseka logo",
+    "badge": "Featured",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-yellow-alpha)"
+  },
+  {
+    "id": "scrub",
+    "category": "web",
+    "featured": true,
+    "sortRank": 8,
+    "title": "Scrub and Butter",
+    "summary": "Developed the complete technical web presence and brand identity architecture.",
+    "role": "Lead Web Developer",
+    "tags": [
+      "Brand Identity",
+      "Frontend",
+      "Design"
+    ],
+    "problem": "The client needed a digital footprint from scratch that communicated modern capability and immediately captured lead interest.",
+    "solution": "Developed the complete technical architecture and frontend UI. Focused on clean layouts, strong typography, and strategic call-to-action placement.",
+    "impact": "Successfully launched a scalable web presence that acts as a 24/7 lead generation asset for the business.",
+    "links": [
+      {
+        "label": "Live Demo",
+        "url": "https://scrubnbutter.com/",
+        "icon": "ph-arrow-up-right",
+        "type": "demo"
+      }
+    ],
+    "logo": "https://scrubnbutter.com",
+    "logoAlt": "Scrub and Butter logo",
+    "badge": "Featured",
+    "thumb1": "var(--g-red-alpha)",
+    "thumb2": "var(--g-yellow-alpha)"
+  },
+  {
+    "id": "mob",
+    "category": "web",
+    "featured": false,
+    "sortRank": 7,
+    "title": "MOB Surfskate",
+    "summary": "A dynamic web experience focusing on high-quality visuals, motion, and modern aesthetic.",
+    "role": "Frontend Developer",
+    "tags": [
+      "Lifestyle Brand",
+      "WooCommerce",
+      "WordPress"
+    ],
+    "problem": "The brand required a dynamic, high-energy digital presence to match its lifestyle product, with a seamless transition into e-commerce.",
+    "solution": "Built a highly visual, motion-rich frontend with a smooth WooCommerce flow perfectly optimized for mobile-first users.",
+    "impact": "Delivered a modern aesthetic that drives lifestyle brand engagement and facilitates seamless on-the-go purchases.",
+    "links": [
+      {
+        "label": "Live Demo",
+        "url": "https://mobsurfskate.com/",
+        "icon": "ph-arrow-up-right",
+        "type": "demo"
+      }
+    ],
+    "logo": "https://mobsurfskate.com",
+    "logoAlt": "MOB Surfskate logo",
+    "badge": "Brand Site",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "ola",
+    "category": "web",
+    "featured": false,
+    "sortRank": 6,
+    "title": "OLA Tangalle Hotel",
+    "summary": "A premium hospitality frontend highlighting immersive imagery and booking flows.",
+    "role": "Web Developer",
+    "tags": [
+      "Hospitality",
+      "Responsive Design",
+      "Alpha Solutions"
+    ],
+    "problem": "A boutique hotel needed an immersive digital experience to highlight property visuals and drive direct booking conversions over third-party apps.",
+    "solution": "Engineered a premium, responsive frontend with a focus on immersive imagery and intuitive user journeys from landing page to booking engine.",
+    "impact": "Successfully translated high-fidelity designs into code, resulting in an elegant booking platform that elevates the hotel's online prestige.",
+    "links": [
+      {
+        "label": "Live Demo",
+        "url": "https://olatangalle.com/",
+        "icon": "ph-arrow-up-right",
+        "type": "demo"
+      }
+    ],
+    "logo": "https://olatangalle.com",
+    "logoAlt": "OLA Tangalle logo",
+    "badge": "Hospitality",
+    "thumb1": "var(--g-yellow-alpha)",
+    "thumb2": "var(--g-blue-alpha)"
+  },
+  {
+    "id": "exact",
+    "category": "web",
+    "featured": false,
+    "sortRank": 5,
+    "title": "Exact Extract & LoveandLab",
+    "summary": "Web solutions for perfume and cosmetic brands emphasizing product presentation.",
+    "role": "Full Stack Developer",
+    "tags": [
+      "E-Commerce",
+      "Brand Presence",
+      "WooCommerce"
+    ],
+    "problem": "Two distinct product lines needed robust web solutions emphasizing high-end product presentation and reliable e-commerce integration.",
+    "solution": "Deployed dual web presence solutions utilizing WooCommerce, prioritizing distinct brand aesthetics while maintaining robust cart functionality.",
+    "impact": "Established stable, high-quality digital storefronts that handle active product catalogs and customer transactions simultaneously.",
+    "links": [
+      {
+        "label": "Exact Extract",
+        "url": "https://exactextract.lk/",
+        "icon": "ph-arrow-up-right",
+        "type": "demo"
+      },
+      {
+        "label": "LoveandLab",
+        "url": "https://loveandlab.com/",
+        "icon": "ph-arrow-up-right",
+        "type": "demo"
+      }
+    ],
+    "logo": "https://loveandlab.com",
+    "logoAlt": "LoveandLab logo",
+    "badge": "Dual brand",
+    "thumb1": "var(--g-red-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "invoice",
+    "category": "automation",
+    "featured": true,
+    "sortRank": 4,
+    "title": "Biseka Bulk Invoice Automation",
+    "summary": "Automated framework instantly generating error-free tax invoices for Biseka Maldives.",
+    "role": "Automation Logic Creator",
+    "tags": [
+      "Google Apps Script",
+      "Financial Logic",
+      "Sheets"
+    ],
+    "problem": "Generating monthly tax invoices involved high manual effort, risking human errors in 20% discounts and 8% GST calculations.",
+    "solution": "Engineered a Google Apps Script framework that centralizes data, automatically applying hard-coded financial logic to dynamic invoice templates.",
+    "impact": "Achieved instant, error-free generation of complex tax documents, archiving them systematically by month for easy business record retrieval.",
+    "links": [
+      {
+        "label": "Case Study",
+        "url": "#work",
+        "icon": "ph-file-text",
+        "type": "case"
+      }
+    ],
+    "logo": "https://biseka.co",
+    "logoAlt": "Biseka logo",
+    "badge": "Automation",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-red-alpha)"
+  },
+  {
+    "id": "payroll",
+    "category": "automation",
+    "featured": false,
+    "sortRank": 3,
+    "title": "Payslip & Email Delivery Automation",
+    "summary": "Integrated system that tracks salary components, generates PDFs, and automates emails.",
+    "role": "System Automation Creator",
+    "tags": [
+      "Python / Apps Script",
+      "HR",
+      "API Delivery"
+    ],
+    "problem": "The HR department was manually calculating complex salary variables for over 30 employees, creating individual PDFs, and emailing them manually.",
+    "solution": "Built an integrated script that pulls database data, calculates deductions (EPF), generates formatted PDF payslips, and triggers bulk email delivery.",
+    "impact": "Reduced a multi-day manual HR process into a 5-minute automated execution with flawless calculation accuracy.",
+    "links": [
+      {
+        "label": "Case Study",
+        "url": "#work",
+        "icon": "ph-file-text",
+        "type": "case"
+      }
+    ],
+    "logo": "https://google.com",
+    "logoAlt": "Workflow automation icon",
+    "badge": "Internal tool",
+    "thumb1": "var(--g-green-alpha)",
+    "thumb2": "var(--g-blue-alpha)"
+  },
+  {
+    "id": "sms",
+    "category": "automation",
+    "featured": false,
+    "sortRank": 2,
+    "title": "Logistics SMS Notification Framework",
+    "summary": "Command center bridging courier data with automated customer SMS communication.",
+    "role": "Backend API Integrator",
+    "tags": [
+      "API Integration",
+      "Logistics",
+      "Status Logging"
+    ],
+    "problem": "Customer service was overwhelmed by tracking inquiries because tracking IDs across delivery agents (Citypack, Fardar) weren't automatically communicated.",
+    "solution": "Created a centralized logic controller that automatically pairs courier tracking numbers with correct URLs and triggers personalized SMS notifications upon dispatch.",
+    "impact": "Drastically reduced customer support tickets and improved post-purchase satisfaction through proactive status communication.",
+    "links": [
+      {
+        "label": "Case Study",
+        "url": "#work",
+        "icon": "ph-file-text",
+        "type": "case"
+      }
+    ],
+    "logo": "https://messages.google.com",
+    "logoAlt": "SMS workflow icon",
+    "badge": "API flow",
+    "thumb1": "var(--g-yellow-alpha)",
+    "thumb2": "var(--g-red-alpha)"
+  },
+  {
+    "id": "sheets",
+    "category": "automation",
+    "featured": false,
+    "sortRank": 1,
+    "title": "Automated Monthly Sheet Generation",
+    "summary": "Centralized controller automating deployment and organization of tracking sheets.",
+    "role": "Data Architect",
+    "tags": [
+      "Workspace",
+      "Architecture",
+      "Bulk Execution"
+    ],
+    "problem": "Setting up specialized monthly tracking sheets across various BISEKA locations was a tedious, repetitive structural bottleneck for management.",
+    "solution": "Created a centralized controller that duplicates master templates, auto-renames files by month/brand, and routes them to precise Destination Folder IDs.",
+    "impact": "Reduced deployment time of massive business tracker suites (SHOP logs, BIS logs) from hours to just minutes, ensuring strict formatting compliance.",
+    "links": [
+      {
+        "label": "Case Study",
+        "url": "#work",
+        "icon": "ph-file-text",
+        "type": "case"
+      }
+    ],
+    "logo": "https://sheets.google.com",
+    "logoAlt": "Spreadsheet workflow icon",
+    "badge": "Workspace",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "repos",
+    "category": "repos",
+    "featured": false,
+    "sortRank": 0,
+    "title": "Development Archives",
+    "summary": "A collection of technical prototypes, HTML/JS builds, and concept layouts.",
+    "role": "Developer",
+    "tags": [
+      "Code Repos",
+      "JavaScript",
+      "HTML/CSS",
+      "GitHub"
+    ],
+    "problem": "A need to consolidate and showcase various technical prototypes, interactive web tools, and pure HTML/CSS/JS layouts outside of professional client work.",
+    "solution": "Curated a central GitHub repository linking to live deployments of tools like a Customer Care Asset Form, a Movie Database layout, and Interactive JS games.",
+    "impact": "Provides a transparent, accessible archive demonstrating continuous learning, raw coding capabilities, and versatile technical interests.",
+    "links": [
+      {
+        "label": "GitHub Profile",
+        "url": "https://github.com/nikithaKesh",
+        "icon": "ph-github-logo",
+        "type": "github"
+      },
+      {
+        "label": "Asset Form Demo",
+        "url": "https://nikithakesh.github.io/Employee-Assets/",
+        "icon": "ph-arrow-up-right",
+        "type": "demo"
+      }
+    ],
+    "logo": "https://github.com",
+    "logoAlt": "GitHub logo",
+    "badge": "Repository",
+    "thumb1": "var(--g-red-alpha)",
+    "thumb2": "var(--g-blue-alpha)"
+  },
+  {
+    "id": "stock",
+    "category": "automation",
+    "featured": false,
+    "sortRank": 30,
+    "title": "Biseka Stock Operations",
+    "summary": "Inventory, movements, low-stock alerts, and approvals across locations.",
+    "role": "Developer",
+    "tags": [
+      "JavaScript",
+      "Google Apps Script",
+      "Inventory"
+    ],
+    "problem": "Record stock movements across locations without losing the operational context.",
+    "solution": "Built an inventory ledger, movement entry, approval queue, product assignments, audit history, user management, and CSV exports. The frontend connects to an Apps Script service.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Backend-dependent implementation",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "contentos",
+    "category": "automation",
+    "featured": false,
+    "sortRank": 29,
+    "title": "ContentOS",
+    "summary": "A workspace for coordinating content across brands, products, and people.",
+    "role": "Developer",
+    "tags": [
+      "JavaScript",
+      "Local storage",
+      "Workflow UX"
+    ],
+    "problem": "Keep content tasks, completion proof, and brand context together.",
+    "solution": "Built task management, completion logs, calendar, products, brands, analytics, audit history, user roles, and configurable settings with local browser persistence.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Browser-local implementation",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "fitness",
+    "category": "repos",
+    "featured": false,
+    "sortRank": 28,
+    "title": "Fitness — Training & Recovery",
+    "summary": "A personal workspace connecting schedules, sessions, nutrition, and recovery.",
+    "role": "Developer",
+    "tags": [
+      "JavaScript",
+      "Apps Script",
+      "Data visualization"
+    ],
+    "problem": "Bring training plans and everyday tracking into a single interface.",
+    "solution": "Built workout schedule management, calendar, session entry, personal records, recovery logging, nutrition logs, profile calculations, and an exercise/recipe library. Backend adapters connect external services through Apps Script.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Backend-dependent implementation",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "materials",
+    "category": "automation",
+    "featured": false,
+    "sortRank": 27,
+    "title": "Material Runway",
+    "summary": "Translate product demand into material requirements and shortage signals.",
+    "role": "Developer",
+    "tags": [
+      "JavaScript",
+      "Excel import",
+      "Planning logic"
+    ],
+    "problem": "Estimate which production materials need attention over a selected horizon.",
+    "solution": "Built workbook parsing, product-to-recipe matching with manual corrections, production demand calculations, material consumption, coverage estimates, and shortage breakdowns.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Source-reviewed planning tool",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "sales",
+    "category": "automation",
+    "featured": false,
+    "sortRank": 26,
+    "title": "Cosmetics Sales Intelligence",
+    "summary": "Explore monthly sales through products, outlets, channels, and delivery geography.",
+    "role": "Developer",
+    "tags": [
+      "JavaScript",
+      "SheetJS",
+      "Analytics"
+    ],
+    "problem": "Make large sales workbooks easier to investigate without rebuilding reports manually.",
+    "solution": "Built Excel ingestion and interactive analyses covering product sales by month, shop totals, channel attribution, and delivery company/city/district breakdowns, with report export code.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Source-reviewed analytics tool",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "assets",
+    "category": "automation",
+    "featured": false,
+    "sortRank": 25,
+    "title": "Outlet Asset Inventory",
+    "summary": "A focused entry form for assembling an outlet’s asset register.",
+    "role": "Developer",
+    "tags": [
+      "HTML / CSS",
+      "JavaScript",
+      "CSV export"
+    ],
+    "problem": "Capture an outlet inventory in a consistent, exportable format.",
+    "solution": "Built an asset-entry form, in-session list, row deletion, and CSV export with outlet/date filenames.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Browser-local form",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "travel",
+    "category": "web",
+    "featured": false,
+    "sortRank": 24,
+    "title": "TravelX — Travel Editorial",
+    "summary": "A visual travel concept built around destinations, stays, and editorial discovery.",
+    "role": "Developer",
+    "tags": [
+      "HTML / CSS",
+      "JavaScript",
+      "GSAP"
+    ],
+    "problem": "Organize a travel landing page around inspiration and destination browsing.",
+    "solution": "Built an image-led destination grid, featured stays, testimonials, travel articles, responsive navigation, and GSAP scroll sequences.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Frontend concept",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "alpha",
+    "category": "web",
+    "featured": false,
+    "sortRank": 23,
+    "title": "Alpha Digital Solutions",
+    "summary": "A service-led agency presence connecting engineering and creative production.",
+    "role": "Developer",
+    "tags": [
+      "JavaScript",
+      "Responsive UI",
+      "Agency website"
+    ],
+    "problem": "Explain a broad service offering without losing the path to an inquiry.",
+    "solution": "Built a structured agency site covering web development, automation, reporting, creative services, process, team, project details, FAQs, and an inquiry form. The uploaded site and connected GitHub source are treated as versions of one project.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [
+      {
+        "label": "GitHub source",
+        "url": "https://github.com/nikithaKesh/Alpha-Solutions",
+        "icon": "ph-github-logo",
+        "type": "github"
+      }
+    ],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Uploaded & repository source reviewed",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "skinscope",
+    "category": "repos",
+    "featured": false,
+    "sortRank": 22,
+    "title": "SkinScope — Image & Report Prototype",
+    "summary": "An exploration of image uploads, report generation, and an analysis interface.",
+    "role": "Developer",
+    "tags": [
+      "Python",
+      "Flask",
+      "OpenCV"
+    ],
+    "problem": "Connect image input to a readable, downloadable report.",
+    "solution": "Developed Flask upload/report routes, OpenCV image processing, charts, and PDF generation in successive prototypes.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Historical prototype",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "retail-etl",
+    "category": "automation",
+    "featured": false,
+    "sortRank": 21,
+    "title": "Retail Orders: Excel → SQL Server",
+    "summary": "A validation and transformation pipeline for retail order spreadsheets.",
+    "role": "Developer",
+    "tags": [
+      "Python",
+      "pandas",
+      "pyodbc",
+      "SQL Server"
+    ],
+    "problem": "Turn inconsistent shop spreadsheets into structured order and product records.",
+    "solution": "Implemented required-column checks, contact/date normalization, quantity expansion, and parameterized SQL Server inserts. A Flask interface was discussed separately as an extension.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Historical code evidence",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "bank-tracker",
+    "category": "automation",
+    "featured": false,
+    "sortRank": 20,
+    "title": "Multi-outlet Bank Tracker",
+    "summary": "Development work on bank-specific transaction ingestion and outlet storage.",
+    "role": "Developer",
+    "tags": [
+      "Python",
+      "SQLAlchemy",
+      "SQL Server"
+    ],
+    "problem": "Organize bank transaction imports by bank and outlet.",
+    "solution": "Worked on a modular bank tracker, outlet-specific transaction tables, and a migration path from SQLite to SQL Server.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Development record",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "store-map",
+    "category": "web",
+    "featured": false,
+    "sortRank": 19,
+    "title": "Biseka Location Explorer",
+    "summary": "A geographic interface for finding outlets and planning a visit.",
+    "role": "Developer",
+    "tags": [
+      "MapLibre",
+      "JavaScript",
+      "Maps"
+    ],
+    "problem": "Help visitors discover six outlets and reach the right practical information.",
+    "solution": "Developed map views with search, filters, nearest-location discovery, outlet details, directions, and a 2D fallback.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Previously delivered build",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "chess",
+    "category": "repos",
+    "featured": false,
+    "sortRank": 18,
+    "title": "Iron & Crown — Chess Worlds",
+    "summary": "An atmospheric chess experience with computer play and online friend rooms.",
+    "role": "Developer",
+    "tags": [
+      "JavaScript",
+      "Game logic",
+      "Multiplayer"
+    ],
+    "problem": "Combine playable chess with expressive environments and continuity between sessions.",
+    "solution": "Developed legal-move handling, clocks, computer play, review, FEN/PGN, saved games, and synchronized friend-room flows across iterative builds.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Previously delivered build",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  },
+  {
+    "id": "social-hub",
+    "category": "repos",
+    "featured": false,
+    "sortRank": 17,
+    "title": "Zono — Professional Profile Hub",
+    "summary": "A searchable home for professional profiles and their available public information.",
+    "role": "Developer",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Profile management"
+    ],
+    "problem": "Keep a dispersed professional presence organized without inventing unavailable statistics.",
+    "solution": "Developed categorized profile cards, search, pinning, add/edit persistence, links, and explicit handling for private or unavailable metrics.",
+    "impact": "Delivered the described interface or development artifact. No independently measured business outcome is asserted.",
+    "links": [],
+    "logo": "",
+    "logoAlt": "",
+    "badge": "Previously delivered build",
+    "thumb1": "var(--g-blue-alpha)",
+    "thumb2": "var(--g-green-alpha)"
+  }
+]

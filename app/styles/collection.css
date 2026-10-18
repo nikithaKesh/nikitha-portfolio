@@ -1,0 +1,17 @@
+/* Selected work and full collection share the same visual card language. */
+.site-header .wordmark{display:inline-flex;gap:0;white-space:nowrap;font-family:'DM Sans',sans-serif;font-size:17px;font-weight:600;letter-spacing:-.04em;line-height:1.2}
+.site-header .wordmark span{font:inherit;letter-spacing:inherit}
+#work.zip-work{background:var(--surface);color:var(--ink)}
+#work.zip-work .work-opening{margin-bottom:32px}
+#work.zip-work .work-total strong{font-size:clamp(38px,5vw,68px);line-height:1;color:var(--signal)}
+#work.zip-work .work-total span{font-size:12px;color:var(--muted)}
+.more-work-link{display:flex;align-items:center;justify-content:space-between;gap:30px;background:var(--signal);color:white;border-radius:18px;padding:22px 26px;margin-top:24px;font-size:19px;transition:transform .25s var(--ease),background .25s}
+.more-work-link small{display:block;color:#e6eeff;font-size:13px;margin-top:3px}.more-work-link:hover{transform:translateY(-3px);background:#1d43ad}.more-work-link svg{transition:transform .25s}.more-work-link:hover svg{transform:translate(3px,-3px)}
+.collection-page .work-opening h1{font-size:clamp(48px,7vw,94px)}.collection-page .work-opening h1 em{color:var(--signal)}
+.collection-nav,.collection-nav a{display:flex;align-items:center;gap:10px}.collection-nav{gap:28px}.collection-nav a{font-size:14px;min-height:44px}
+.collection-footer{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:36px var(--gutter);font-size:14px}.collection-footer>div{display:flex;gap:24px}.collection-footer a{padding-block:10px}
+.professional-links a{font-size:15px;min-height:44px;display:inline-flex;align-items:center}
+@media(max-width:600px){.site-header .wordmark{font-size:15px}.collection-nav{gap:14px}.collection-nav a{font-size:12px}.collection-nav a:last-child{display:none}.more-work-link{padding:18px 20px}.collection-footer{flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){.more-work-link,.more-work-link svg{transition:none}}
+
+@media(min-width:601px) and (max-width:1000px){.portfolio:not(.collection-page) .zip-work .bento-project:last-child{grid-column:span 12}}
